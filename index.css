@@ -1,0 +1,112 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url(/src/fonts/DS-DIGI.TTF);
+ }
+
+body {
+    margin: 0;
+    font-family: "Pixelify Sans", serif;
+    background-color: #778da9;
+    
+}
+
+h3{
+    font-family: "Pixelify Sans";
+    color: rgba(224, 225, 221, 0.8);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home-board:hover{
+    background-image: url("https://media.giphy.com/media/zAYZOtH5OMhuU/giphy.gif?cid=790b7611m1fg8s1gtgb9mqmx3i5f8uieta3kc2vf7yftxhe2&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-color: #1b263b;
+    background-size: cover;
+    background-position: center;
+}
+
+#away-board:hover{
+    background-image: url("https://media.giphy.com/media/12Tob44HkDJty8/giphy.gif?cid=ecf05e479qte6y0t5y39tso8onypjwr5bs17m1fv6qoiifg9&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-color: #1b263b;
+    background-size: cover;
+    background-position: center;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e1dd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #415a77;
+    width: 400px;
+}
+
+.score-board{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.score-container{
+    background-color: rgba(13, 27, 42, 0.8);
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-family: DS-DIGI;
+}
+
+.score-btn{
+    padding: 8px 8px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #e0e1dd;
+    text-align: center;
+    color: #e0e1dd;
+    font-family: inherit;
+}
+
+.score-btn:hover{
+    background-color: #e0e1dd;
+    color: #415a77;
+}
+
+.reset-btn{
+    margin-top: 10px;
+    padding: 8px 8px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #e0e1dd;
+    text-align: center;
+    color: #e0e1dd;
+    font-family:"Pixelify Sans" ;
+}
+
+.reset-btn:hover{
+    background-color: #e0e1dd;
+    color: #415a77;
+}
+
+.reset-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+}
